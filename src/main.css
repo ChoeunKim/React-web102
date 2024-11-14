@@ -27,6 +27,10 @@ a {
   text-decoration: none;
   color: black;
 }
+a :hover {
+  text-decoration: underline;
+  color: red;
+}
 .mainPic {
   width: 100%;
   height: 464px;
