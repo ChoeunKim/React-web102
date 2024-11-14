@@ -9,12 +9,12 @@ const Header = () => {
       <header>
         <ul>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <a href="###" onClick={(e) => e.preventDefault()}>
               How it works
             </a>
           </li>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <a href="###" onClick={(e) => e.preventDefault()}>
               Gifts
             </a>
           </li>
@@ -25,17 +25,17 @@ const Header = () => {
             <img src={logo} className="logo" alt="logo" />
           </li>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <a href="###" onClick={(e) => e.preventDefault()}>
               Login
             </a>
           </li>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <a href="###" onClick={(e) => e.preventDefault()}>
               Members
             </a>
           </li>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <a href="###" onClick={(e) => e.preventDefault()}>
               Contacts
             </a>
           </li>
