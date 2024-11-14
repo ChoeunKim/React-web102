@@ -9,10 +9,14 @@ const Header = () => {
       <header>
         <ul>
           <li>
-            <a>How it works</a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
+              How it works
+            </a>
           </li>
           <li>
-            <a>Gifts</a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
+              Gifts
+            </a>
           </li>
           <li>
             <Link to="/about">About</Link>
@@ -21,13 +25,19 @@ const Header = () => {
             <img src={logo} className="logo" alt="logo" />
           </li>
           <li>
-            <a>Login</a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
+              Login
+            </a>
           </li>
           <li>
-            <a>Members</a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
+              Members
+            </a>
           </li>
           <li>
-            <a>Contacts</a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
+              Contacts
+            </a>
           </li>
         </ul>
       </header>
