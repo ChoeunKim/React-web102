@@ -1,5 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Index from "./pages/Index";
 function App() {
-  return <h1>hello</h1>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
