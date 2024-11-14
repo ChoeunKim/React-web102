@@ -9,10 +9,10 @@ const Header = () => {
       <header>
         <ul>
           <li>
-            <a href="#">How it works</a>
+            <a>How it works</a>
           </li>
           <li>
-            <a href="#">Gifts</a>
+            <a>Gifts</a>
           </li>
           <li>
             <Link to="/about">About</Link>
@@ -21,13 +21,13 @@ const Header = () => {
             <img src={logo} className="logo" alt="logo" />
           </li>
           <li>
-            <a href="#">Login</a>
+            <a>Login</a>
           </li>
           <li>
-            <a href="#">Members</a>
+            <a>Members</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a>Contacts</a>
           </li>
         </ul>
       </header>
