@@ -1,7 +1,7 @@
 import React from "react";
-import Top from "../components/Top";
-import BoxAll from "../components/BoxAll";
-import Footer from "../components/Footer";
+import Top from "../layout/About/Top";
+import BoxAll from "../layout/About/BoxAll";
+import Footer from "../layout/About/Footer";
 
 const About = () => {
   return (

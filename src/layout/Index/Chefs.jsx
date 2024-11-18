@@ -1,5 +1,5 @@
 import React from "react";
-import chef from "../assets/chef.png";
+import chef from "../../assets/chef.png";
 const Chefs = () => {
   return (
     <div className="chefs">
