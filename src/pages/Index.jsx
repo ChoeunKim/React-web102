@@ -1,9 +1,9 @@
 import React from "react";
-import Chefs from "../components/Chefs";
-import Header from "../components/Header";
-import IconBox from "../components/IconBox";
-import IconTitle from "../components/IconTitle";
-import MainPicture from "../components/MainPicture";
+import Chefs from "../layout/Index/Chefs";
+import Header from "../layout/Index/Header";
+import IconBox from "../layout/Index/IconBox";
+import IconTitle from "../layout/Index/IconTitle";
+import MainPicture from "../layout/Index/MainPicture";
 
 const Index = () => {
   return (

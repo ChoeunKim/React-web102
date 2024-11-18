@@ -20,7 +20,7 @@ header ul li:last-child {
   margin-right: 0;
 }
 
-.logo {
+.menu-icon {
   padding-top: 33px;
 }
 a {
@@ -105,6 +105,7 @@ a :hover {
   width: 250px;
   height: 500px;
   float: left;
+  background-color: green;
 }
 .top_right img {
   display: block;
@@ -160,6 +161,7 @@ a :hover {
 #box_title {
   font-size: large;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 #box_detail {
@@ -170,13 +172,6 @@ a :hover {
 #num {
   font-weight: bold;
   font-size: small;
-}
-
-.box_left .bottom_box:nth-child(2n) {
-  background-color: rgba(231, 122, 27, 0.895);
-}
-.box_left .bottom_box:nth-child(2n-1) {
-  background-color: rgba(105, 85, 69, 0.895);
 }
 
 #footer {
@@ -197,4 +192,24 @@ a :hover {
 .separator {
   color: orange;
   margin: 10px;
+}
+
+.boxitem {
+  width: 210px;
+  height: 210px;
+  float: left;
+  background-color: green;
+  padding: 20px;
+}
+#topbox {
+  background-color: rgba(31, 143, 31, 0.8);
+  margin-top: -250px;
+}
+
+.box_left .boxitem:nth-child(odd) {
+  background-color: rgba(105, 85, 69, 0.895);
+}
+
+.box_left .boxitem:nth-child(even) {
+  background-color: rgba(231, 122, 27, 0.895); /* 짝수번째 배경색 */
 }
